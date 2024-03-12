@@ -1,0 +1,27 @@
+{
+  "name": "neo4j-docker-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "index": "ts-node index.ts",
+    "query": "ts-node query.ts",
+    "up": "docker-compose up",
+    "down": "docker-compose down",
+    "embeddings": "ts-node create-embeddings.ts"
+  },
+  "keywords": [],
+  "author": "Michael Schmidt <me@michaelschmidt.com.au>",
+  "license": "ISC",
+  "repository": "git@github.com:schm-dt/neo4j-docker-example.git",
+  "dependencies": {
+    "@neo4j/cypher-builder": "^1.14.0",
+    "@types/inquirer": "^8.2.10",
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.0.0",
+    "neo4j-driver": "^5.18.0",
+    "openai": "^4.28.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}

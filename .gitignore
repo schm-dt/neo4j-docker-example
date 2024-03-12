@@ -1,0 +1,4 @@
+volumes
+.env
+create-embeddings.ts
+node_modules
